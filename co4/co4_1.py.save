@@ -1,0 +1,25 @@
+'''
+Create Rectangle class with attributes length and breadth and methods to find area and
+perimeter. Compare two Rectangle objects by their area. 
+'''
+class Rectangle:
+    def __init__(self,length,breadth):
+        self.length = length
+        self.breadth = breadth
+    
+    def area(self):
+        return self.length * self.breadth
+    def perimeter(self):
+        return 2*(self.length + self.breadth)
+
+length1 = int(input("Enter length:"))
+breadth1 = int(input("Enter breadth:"))
+
+rect1 = Rectangle(length1, breadth1)
+print("Area of rectangle one is ",rect1.area())
+
+length2 = int(input("Enter lengthrect1 = Rectangle(length1, breadth1)
+print("Area of rectangle one is ",rect1.area())
+:"))
+breadth2 = int(input("Enter breadth:"))
+
